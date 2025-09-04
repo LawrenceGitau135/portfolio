@@ -9,19 +9,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <style>
-      footer {
-        background-color: #333;
-        color: white;
-        text-align: center;
-        padding: 10px 0;
-        position: relative;
-        bottom: 0;
-        width: 100%;
-      }
-    </style>
     <!--Header & navbar-->
     <header>
       <h1>My Portfolio</h1>
@@ -38,8 +28,14 @@
             <i class="fab fa-instagram"></i>
           </a>
           <a href="https://www.facebook.com/lawrence gitz" target="_blank">
-            <i class="fab fa-facebook"></i>
-          </a>
+            <i class="fab fa-facebook"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/lawrence-g-ba52a037a/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin"></i
+          ></a>
         </div>
       </nav>
     </header>
@@ -86,8 +82,8 @@
     <section id="resume">
       <h2>Resume</h2>
       <p>Download my resume <a href="files/resume.pdf" download>here</a>.</p>
-      <h3>software engineering courses</h3>
-      <table border="35">
+      <h3>My Professions</h3>
+      <table border="15">
         <tr>
           <th>Course Name</th>
           <th>Institution</th>
@@ -113,13 +109,17 @@
     <!--Contact section-->
     <section id="contact">
       <h2>Contact Me</h2>
+      <p>
+        Please fill the form. If any problem occurs please call the number below
+        for further assistance
+      </p>
       <form action="submit_form.php" method="POST">
         <label for="name">Name:</label><br />
         <input type="text" id="name" name="name" required /><br />
         <label for="email">Email:</label><br />
         <input type="email" id="email" name="email" required /><br />
         <span class="help-number"
-          >Help: <a href="tel:+1234567890">+1 (234) 567-890</a></span
+          >Help: <a href="tel:+254750205026">+254750205026</a></span
         ><br />
         <input type="submit" value="Submit" />
       </form>
